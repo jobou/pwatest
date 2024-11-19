@@ -1,28 +1,50 @@
 {
-  "short_name": "ata",
-  "name": "angulartestapp",
+  "id": "/",
+  "dir": "ltr",
+  "lang": "en",
+  "name": "taa",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "/",
+  "short_name": "Test angular app",
+  "theme_color": "#FFFFFF",
+  "description": "Test angular app!",
+  "orientation": "any",
+  "background_color": "#FFFFFF",
+  "prefer_related_applications": false,
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "screenshots": [],
+  "features": [
+    "Cross Platform",
+    "low-latency inking",
+    "fast",
+    "useful AI"
+  ],
   "icons": [
     {
-      "src": "/images/icons-vector.svg",
+      "src": "/assets/images/icons-vector.svg",
       "type": "image/svg+xml",
       "sizes": "512x512"
     },
     {
-      "src": "/images/icons-192.png",
+      "src": "/assets/images/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "/assets/images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "id": "/?source=pwa",
-  "start_url": "/?source=pwa",
-  "background_color": "#3367D6",
-  "display": "standalone",
-  "scope": "/",
-  "theme_color": "#3367D6",
-  "description": "Test app for pwa purpose"
+  "categories": [
+    "productivity"
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {},
+  "shortcuts": []
 }
