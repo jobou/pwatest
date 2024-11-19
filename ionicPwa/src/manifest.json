@@ -12,10 +12,9 @@
   "orientation": "any",
   "background_color": "#FFFFFF",
   "prefer_related_applications": false,
-  "display_override": [
-    "window-controls-overlay"
-  ],
-  "screenshots": [],
+  "screenshots": [ {
+    "src": "assets/screen.png"
+  }],
   "features": [
     "Cross Platform",
     "low-latency inking",
